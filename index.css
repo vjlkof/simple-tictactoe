@@ -1,0 +1,47 @@
+body {
+  padding: 20px 5rem;
+}
+
+.game-container {
+  margin: 0px 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.player-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.who-play {
+  color: blue;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 90px;
+}
+
+.play-again {
+  font-size: 35px;
+  color: green;
+  width: auto;
+}
+
+.reset-game {
+  font-size: 20px;
+  color: blue;
+}
